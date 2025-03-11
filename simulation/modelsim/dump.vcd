@@ -1,0 +1,67 @@
+$date
+	Sun Mar 09 19:57:52 2025
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module seven_segment_decoder_tb $end
+
+$scope module dut $end
+$var wire 1 ! num [3] $end
+$var wire 1 " num [2] $end
+$var wire 1 # num [1] $end
+$var wire 1 $ num [0] $end
+$var reg 7 % seg [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111111 %
+0$
+0#
+0"
+0!
+$end
+#20000
+1$
+b110 %
+#40000
+0$
+1#
+b1011011 %
+#60000
+1$
+b1001111 %
+#80000
+0$
+0#
+1"
+b1100110 %
+#100000
+1$
+b1101101 %
+#120000
+0$
+1#
+b1111101 %
+#140000
+1$
+b111 %
+#160000
+0$
+0#
+0"
+1!
+b1111111 %
+#180000
+1$
+b1101111 %
+#200000
+0$
+1#
+b1000000 %

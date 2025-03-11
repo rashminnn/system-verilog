@@ -1,0 +1,45 @@
+module seven_segment_decoder_tb;
+    timeunit 1ns;
+    timeprecision 1ps;
+    
+    logic [3:0] num;
+    logic [6:0] seg;
+    
+    seven_segment_decoder dut(.*);
+    
+    logic [6:0] expected_patterns [0:9] = '{
+        7'b0111111,  // 0
+        7'b0000110,  // 1
+        7'b1011011,  // 2
+        7'b1001111,  // 3
+        7'b1100110,  // 4
+        7'b1101101,  // 5
+        7'b1111101,  // 6
+        7'b0000111,  // 7
+        7'b1111111,  // 8
+        7'b1101111   // 9
+    };
+    
+    initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars(0, dut);
+        
+        num <= 4'd0;
+        #10 assert (seg == expected_patterns[0]) else $error("Digit 0 failed");
+        
+        #10 num <= 4'd1;
+        #10 num <= 4'd2;
+        #10 num <= 4'd3;
+        #10 num <= 4'd4;
+        #10 num <= 4'd5;
+        #10 num <= 4'd6;
+        #10 num <= 4'd7;
+        #10 num <= 4'd8;
+        #10 num <= 4'd9;
+        
+        #10 num <= 4'd10;
+        #10 num <= 4'd15;
+        
+        #10 $finish;
+    end
+endmodule

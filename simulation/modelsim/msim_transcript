@@ -1,0 +1,195 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Minical_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying F:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Rashmin/Desktop/Assignment\ 1 {C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:52:37 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rashmin/Desktop/Assignment 1" C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv 
+# -- Compiling module seven_segment_decoder
+# 
+# Top level modules:
+# 	seven_segment_decoder
+# End time: 19:52:38 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rashmin/Desktop/Assignment\ 1 {C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:52:38 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rashmin/Desktop/Assignment 1" C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv 
+# -- Compiling module seven_segment_decoder_tb
+# 
+# Top level modules:
+# 	seven_segment_decoder_tb
+# End time: 19:52:38 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:07 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder.sv 
+# -- Compiling module eight_bit_adder
+# 
+# Top level modules:
+# 	eight_bit_adder
+# End time: 19:53:07 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:07 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder_tb.sv 
+# -- Compiling module eight_bit_adder_tb
+# 
+# Top level modules:
+# 	eight_bit_adder_tb
+# End time: 19:53:07 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:07 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder.sv 
+# -- Compiling module eight_bit_unsigned_adder
+# 
+# Top level modules:
+# 	eight_bit_unsigned_adder
+# End time: 19:53:07 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:07 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder_tb.sv 
+# -- Compiling module eight_bit_unsigned_adder_tb
+# 
+# Top level modules:
+# 	eight_bit_unsigned_adder_tb
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier.sv 
+# -- Compiling module four_bit_signed_multiplier
+# 
+# Top level modules:
+# 	four_bit_signed_multiplier
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier_tb.sv 
+# -- Compiling module four_bit_signed_multiplier_tb
+# 
+# Top level modules:
+# 	four_bit_signed_multiplier_tb
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier.sv 
+# -- Compiling module four_bit_unsigned_multiplier
+# 
+# Top level modules:
+# 	four_bit_unsigned_multiplier
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier_tb.sv 
+# -- Compiling module four_bit_unsigned_multiplier_tb
+# 
+# Top level modules:
+# 	four_bit_unsigned_multiplier_tb
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder.sv 
+# -- Compiling module one_bit_adder
+# 
+# Top level modules:
+# 	one_bit_adder
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder_tb.sv 
+# -- Compiling module one_bit_adder_tb
+# 
+# Top level modules:
+# 	one_bit_adder_tb
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv 
+# -- Compiling module seven_segment_decoder
+# 
+# Top level modules:
+# 	seven_segment_decoder
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv 
+# -- Compiling module seven_segment_decoder_tb
+# 
+# Top level modules:
+# 	seven_segment_decoder_tb
+# End time: 19:53:08 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.seven_segment_decoder_tb
+# vsim -gui -l msim_transcript work.seven_segment_decoder_tb 
+# Start time: 19:53:20 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.seven_segment_decoder_tb
+# Loading work.seven_segment_decoder
+add wave -position end  sim:/seven_segment_decoder_tb/expected_patterns
+add wave -position end  sim:/seven_segment_decoder_tb/num
+add wave -position end  sim:/seven_segment_decoder_tb/seg
+run -all
+# ** Note: $finish    : C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv(43)
+#    Time: 130 ns  Iteration: 0  Instance: /seven_segment_decoder_tb
+# 1
+# Break in Module seven_segment_decoder_tb at C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv line 43
+vlog -reportprogress 300 -work work {C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:57:15 on Mar 09,2025
+# vlog -reportprogress 300 -work work C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv 
+# -- Compiling module seven_segment_decoder_tb
+# 
+# Top level modules:
+# 	seven_segment_decoder_tb
+# End time: 19:57:15 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.seven_segment_decoder_tb
+# End time: 19:57:35 on Mar 09,2025, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.seven_segment_decoder_tb 
+# Start time: 19:57:35 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.seven_segment_decoder_tb
+# Loading work.seven_segment_decoder
+add wave -position end  sim:/seven_segment_decoder_tb/num
+add wave -position end  sim:/seven_segment_decoder_tb/seg
+run -all
+# ** Note: $finish    : C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv(49)
+#    Time: 220 ns  Iteration: 0  Instance: /seven_segment_decoder_tb
+# 1
+# Break in Module seven_segment_decoder_tb at C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv line 49
+# End time: 20:04:14 on Mar 09,2025, Elapsed time: 0:06:39
+# Errors: 0, Warnings: 0

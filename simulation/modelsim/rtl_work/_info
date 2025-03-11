@@ -1,0 +1,311 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Rashmin/Desktop/Assignment 1/simulation/modelsim
+veight_bit_adder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1741530187
+!i10b 1
+!s100 [ZGgQCa9B5nHHChdje]G@2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I353BMl9nE>b=ZME6MWlh?0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1741084593
+8C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder.sv
+!i122 2
+Z5 L0 1 29
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1741530187.000000
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder.sv|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+veight_bit_adder_tb
+R1
+R2
+!i10b 1
+!s100 2E;kSR^kbOU3ZmBLbG5R63
+R3
+Igbl0Xcz=ZLlIc7>^B=T5<3
+R4
+S1
+R0
+w1741528046
+8C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder_tb.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder_tb.sv
+!i122 3
+Z10 L0 1 33
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_adder_tb.sv|
+!i113 1
+R8
+R9
+veight_bit_unsigned_adder
+R1
+R2
+!i10b 1
+!s100 5bIZHJf>C:IkKSf@SezR[0
+R3
+Il<86:i9a]KfAe>oPnR?9l3
+R4
+S1
+R0
+w1741327278
+8C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder.sv
+!i122 4
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder.sv|
+!i113 1
+R8
+R9
+veight_bit_unsigned_adder_tb
+R1
+Z11 !s110 1741530188
+!i10b 1
+!s100 ;;h<PzB3aJH::1S1?z<_13
+R3
+IoV<mFCXzonN<[Dn=kOM@93
+R4
+S1
+R0
+w1741327761
+8C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder_tb.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder_tb.sv
+!i122 5
+R10
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/eight_bit_unsigned_adder_tb.sv|
+!i113 1
+R8
+R9
+vfour_bit_signed_multiplier
+R1
+R11
+!i10b 1
+!s100 zn;fJQGZVUiKkf:L0J8k50
+R3
+I5az@oERZG`2ROWQAEOncE0
+R4
+S1
+R0
+w1741344570
+8C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier.sv
+!i122 6
+L0 1 19
+R6
+r1
+!s85 0
+31
+Z12 !s108 1741530188.000000
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier.sv|
+!i113 1
+R8
+R9
+vfour_bit_signed_multiplier_tb
+R1
+R11
+!i10b 1
+!s100 nhmfECS<]Zn`f3nn92WMN0
+R3
+IL_`_jDS?SLBoje<28CMmU2
+R4
+S1
+R0
+w1741340561
+8C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier_tb.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier_tb.sv
+!i122 7
+Z13 L0 1 34
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/four_bit_signed_multiplier_tb.sv|
+!i113 1
+R8
+R9
+vfour_bit_unsigned_multiplier
+R1
+R11
+!i10b 1
+!s100 @bHl7z9L?PM<>[b5J;D032
+R3
+I?nIz=38a0gOUW72aAJc=b0
+R4
+S1
+R0
+w1741329805
+8C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier.sv
+!i122 8
+L0 1 20
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier.sv|
+!i113 1
+R8
+R9
+vfour_bit_unsigned_multiplier_tb
+R1
+R11
+!i10b 1
+!s100 >RTUC1Tb75OSagz1J@<X81
+R3
+ISiLiN0VGG9ZU0<2aOXHNm2
+R4
+S1
+R0
+w1741335792
+8C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier_tb.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier_tb.sv
+!i122 9
+R13
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/four_bit_unsigned_multiplier_tb.sv|
+!i113 1
+R8
+R9
+vone_bit_adder
+R1
+R11
+!i10b 1
+!s100 IHJ6ZZF5dUSWPabno]ONZ1
+R3
+INEz[3;WC;`W?HfBD4M]NQ1
+R4
+S1
+R0
+w1741336938
+8C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder.sv
+!i122 10
+L0 19 9
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder.sv|
+!i113 1
+R8
+R9
+vone_bit_adder_tb
+R1
+R11
+!i10b 1
+!s100 BXID0o;TZEBFm8`^^Zc;P0
+R3
+IZ9occHSg9mDEhhjiOVSlg2
+R4
+S1
+R0
+w1741084463
+8C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder_tb.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder_tb.sv
+!i122 11
+L0 1 23
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/one_bit_adder_tb.sv|
+!i113 1
+R8
+R9
+vseven_segment_decoder
+R1
+R11
+!i10b 1
+!s100 mc>WZJOAz<I5e1=@m6[2c2
+R3
+IfYAYbjanb<I]7WB02`4n<2
+R4
+S1
+R0
+w1741527353
+8C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv
+!i122 12
+L0 3 22
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder.sv|
+!i113 1
+R8
+R9
+vseven_segment_decoder_tb
+R1
+!s110 1741530435
+!i10b 1
+!s100 NPhJOa[jhCTDRYi[>Bn5B1
+R3
+IWL?4`YG8H9[o:LOXj5bL70
+R4
+S1
+R0
+w1741530382
+8C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv
+FC:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv
+!i122 14
+L0 1 51
+R6
+r1
+!s85 0
+31
+!s108 1741530435.000000
+!s107 C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Rashmin/Desktop/Assignment 1/seven_segment_decoder_tb.sv|
+!i113 1
+R8
+R9

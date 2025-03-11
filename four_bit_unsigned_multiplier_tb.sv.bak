@@ -1,0 +1,36 @@
+module four_bit_unsigned_multiplier_tb;
+    timeunit 1ns;
+    timeprecision 1ps;
+
+    logic [3:0] a;
+    logic [3:0] b;
+    logic [7:0] product;
+
+
+    four_bit_unsigned_multiplier dut (
+        .a(a),
+        .b(b),
+        .product(product)
+    );
+
+    initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars(0, dut);
+
+        // Test cases
+        #10 a = 4'b0000; b = 4'b0000;  // 0 x 0 = 0
+        #10 a = 4'b0000; b = 4'b1111;  // 0 x 15 = 0
+        #10 a = 4'b1111; b = 4'b0001;  // 15 x 1 = 15
+        #10 a = 4'b1111; b = 4'b1111;  // 15 x 15 = 225
+
+        // Random test cases
+        repeat (10) begin  
+            #10;  
+            a = $urandom_range(0, 15); 
+            b = $urandom_range(0, 15);
+        end
+
+        $finish;
+    end
+
+endmodule

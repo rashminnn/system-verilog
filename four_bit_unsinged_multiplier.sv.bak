@@ -1,0 +1,20 @@
+module four_bit_unsinged_multiplier(
+    input logic [3:0] a,
+    input logic [3:0] b,
+    output logic [7:0] product
+);
+
+    logic [7:0] pp0, pp1, pp2, pp3;
+    logic [7:0] sum1, sum2;
+    
+    assign pp0 = b[0] ? {4'b0000, a} : 8'b0;        
+    assign pp1 = b[1] ? {3'b000, a, 1'b0} : 8'b0;    
+    assign pp2 = b[2] ? {2'b00, a, 2'b00} : 8'b0;    
+    assign pp3 = b[3] ? {1'b0, a, 3'b000} : 8'b0;    
+    
+
+    eight_bit_adder add1(.a(pp0), .b(pp1), .cin(1'b0), .sum(sum1), .cout());
+    eight_bit_adder add2(.a(sum1), .b(pp2), .cin(1'b0), .sum(sum2), .cout());
+    eight_bit_adder add3(.a(sum2), .b(pp3), .cin(1'b0), .sum(product), .cout());
+    
+endmodule
